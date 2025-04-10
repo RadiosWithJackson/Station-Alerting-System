@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Station Alerting System</title>
+    <link rel="stylesheet" href=""C:\Users\jacks\Downloads\download (1)\style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link type="text/css" rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Station Alerting System</h1>
+            <p><b><span id="current-time"></span></b></p>
+        </div>
+        <div class="main-display">
+            <h2>Alert Panel</h2>
+            <div class="alert-panel">
+                <div class="alert-message-container">
+                    <textarea id="alert-message" placeholder="Enter alert message"></textarea>
+                </div>
+                <div class="alert-sender-container">
+    <input id="alert-sender" type="password" maxlength="4" placeholder="Enter 4-digit PIN" required>
+</div>
+                <div class="alert-tone-container">
+                    <select id="alert-tone">
+                        <option value="default">Default</option>
+                        <option value="siren">Siren</option>
+                        <option value="bell">Bell</option>
+                    </select>
+                </div>
+                <div id="gear-icon" style="position: fixed; bottom: 10px; right: 10px; cursor: pointer;">
+    <i class="fa fa-gear" style="font-size: 24px; color: #fff;"></i>
+</div>
+                <div class="alert-buttons-container">
+                    <button id="preview-alert">Preview Alert</button>
+                    <button id="trigger-alert">Trigger Alert</button>
+                    <button id="emergency-alert">EMERGENCY ALERT</button>
+                    <button id="reset-console">RESET CONSOLE</button>
+                </div>
+                <div class="alert-preview-led-container">
+                    <div id="alert-preview-led"></div>
+                </div>
+                <div class="current-alert-container">
+                    <p>Current Alert: <span id="current-alert"></span></p>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>&copy; <span id="current-year"></span> Station Alerting System. All rights reserved.</p>
+        </div>
+    </div>
+    <script src="C:\Users\jacks\Downloads\download (1)\script.js"></script>
+<script type="text/javascript" src="C:\Users\jacks\Downloads\download (1)\script.js"></script>
+</body>
+</html>
